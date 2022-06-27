@@ -1,0 +1,29 @@
+{
+    "launch": {
+        "configurations": [
+            {
+                "name": "password_generator_flutter",
+                "request": "launch",
+                "type": "dart"
+            },
+            {
+                "name": "iPhone12",
+                "request": "launch",
+                "type": "dart",
+                "deviceId": "A2EB9BDD-C74D-4302-8C12-08534B5A811D"
+            },
+            {
+                "name": "iPhone11",
+                "request": "launch",
+                "type": "dart",
+                "deviceId": "03A17D1E-C222-493C-80F1-C4094139BC0A"
+            },
+        ],
+        "compounds": [
+            {
+                "name": "All Devices",
+                "configurations": ["iPhone12","iPhone11"]
+            }
+        ]
+    }
+}
